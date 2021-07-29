@@ -21,7 +21,7 @@ public class Runner {
 		
 		driver.get("https://www.facebook.com");
 		
-		driver.findElement(By.id("emal")).sendKeys("NaveenKumar");
+		driver.findElement(By.id("email")).sendKeys("NaveenKumar");
 		
 	}
 
